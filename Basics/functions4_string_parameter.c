@@ -34,7 +34,7 @@ void reverse(char array[]) {
 	for (i = 0; i < length / 2; i++) {
 		temp = array[i];
 		
-		array[i] = array[length - 1 - i];
+		array[i] = array[length - 1 - i]; // length - 1  -> index (index - i)
 		
 		array[length - 1 - i] = temp;
 	}

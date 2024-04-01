@@ -24,7 +24,7 @@ int main() {
 	return 0;
 }*/
 
-void print_matrix(int matrix[][4], int size) { // this size calue identify the row size;
+void print_matrix(int matrix[][4], int size) { // this size value identify the row size;
 	int i, j;
 	
 	for (i = 0; i < size; i++) {

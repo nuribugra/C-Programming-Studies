@@ -19,7 +19,7 @@ int main() {
 	
 	int x = 5, y = 8;
 	
-	change_value(&x, &y);
+	change_value(&x, &y); // variable addresses
 	
 	printf("x: %d, y: %d", x, y);
 	
