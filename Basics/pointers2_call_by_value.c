@@ -14,7 +14,7 @@ void change_value(int a, int b) { // Local variables
 
 int main() {
 	
-	int x = 5, y = 6;
+	int x = 3, y = 8;
 	
 	change_value(x,y);
 	
