@@ -24,6 +24,8 @@ int main() {
 	return 0;
 }*/
 
+// Two-dimensional array as a parameter
+
 void print_matrix(int matrix[][4], int size) { // this size value identify the row size;
 	int i, j;
 	

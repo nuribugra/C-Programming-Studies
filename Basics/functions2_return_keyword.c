@@ -6,8 +6,9 @@ int factorial(int number) {
 	for(; number > 0; number--) {
 		result *= number;
 	}
+	// when it reachs to zero, It won't enter the loop!!
 	
-	return result;
+	return result; // result is a integer value
 }
 
 int main() {

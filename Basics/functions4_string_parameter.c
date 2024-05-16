@@ -12,8 +12,8 @@ int return_length(char name[]) {
 	return length;
 }
 
-// This function is the background of strlen() function that consist in string.h library.
-
+// This function is the f strlen() function that consist in string.h library.
+background o
 int main() {
 	
 	char name[] = "Burak";
@@ -24,6 +24,7 @@ int main() {
 	return 0;
 }
 */
+
 
 // Algorithm Knowledge
 void reverse(char array[]) {
