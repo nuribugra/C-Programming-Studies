@@ -9,7 +9,7 @@ char *return_pointer(char *p, int index) {
 	if (index > length) {
 		return NULL; // return 0;
 	} else {
-		return p + index;
+		return p + index; // In this line, we are returning the address of the character at the index position.
 	}
 	
 }
