@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// malloc, calloc, reallloc, free (Memory Management)
+// malloc, calloc, realloc, free (Memory Management)
 
 /*
 int main() {
