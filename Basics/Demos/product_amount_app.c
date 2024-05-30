@@ -39,7 +39,7 @@ void getProductDetails(product *p) {
 }
 
 int main() {
-    product *myStore;
+    product *myStore; // pointer array
     int items, i;
 
     printf("Enter the number of products: ");

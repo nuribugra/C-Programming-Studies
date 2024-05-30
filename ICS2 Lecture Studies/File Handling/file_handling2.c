@@ -2,25 +2,25 @@
 #include <stdlib.h>
 
 int main() {
-    char sss[81], string[256], c;
-    FILE *di;
+    char fileName[81], fileContent[256];
+    FILE *filePtr;
 
     printf("Enter the file name: ");
-    gets(sss);
+    gets(fileName); // gets() is used to read strings with spaces. scanf() can't read strings with spaces.
 
-    di = fopen(sss, "r");
+    filePtr = fopen(fileName, "r");
 
-    if(di == NULL) {
+    if(filePtr == NULL) {
         printf("File could not be opened\n");
         exit(0);
     }
 
-    while(fgets(string, 256, di) != NULL) {
-        puts(string);
+    while(fgets(fileContent, 256, filePtr) != NULL) {
+        puts(fileContent); // puts() is used to print strings with spaces. printf() can't print strings with spaces.
     }
 
     printf("Process completed\n");
-    fclose(di);
+    fclose(filePtr);
 
     return 0;
 }
