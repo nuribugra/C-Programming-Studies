@@ -4,7 +4,7 @@
 int string_length(char *p) {
 	int length = 0, i;
 	
-	for (i = 0; p[i] != '\0'; i++) {
+	for (i = 0; p[i] != '\0'; i++) { // '\0' is the null character.(end of the string)
 		length++;
 	}
 	

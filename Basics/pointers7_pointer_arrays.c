@@ -13,7 +13,7 @@ int main() {
 	
 	char *p;
 	
-	p = chosen_day(days, 7, 3);
+	p = chosen_day(days, 7, 4);
 	
 	if (p == NULL) {
 		printf("NULL");
