@@ -11,7 +11,7 @@ int** initJaggedArray(int rows, int a, int b, int* rowSizes) {
     jaggedArray = (int**) malloc(rows * sizeof(int));
 
     for (i = 0; i < rows; i++) {
-        int randomRowSize = rand() % (b - a) + a;
+        int randomRowSize = rand() % (b - a) + a; // Fisher-Yates shuffle algorithm
         rowSizes[i] = randomRowSize;
 
         jaggedArray[i] = (int*) malloc(randomRowSize * sizeof(int));
@@ -42,7 +42,7 @@ int main() {
     scanf("%d", &rows);
 
     int* rowSizes = (int*) malloc(rows * sizeof(int));
-    int** myArray = initJaggedArray(rows, 1, 10, rowSizes);
+    int** myArray = initJaggedArray(rows, 1, 10, rowSizes); // using ** because of rows and columns
 
     printArray(rows, myArray, rowSizes);
 
