@@ -52,6 +52,7 @@ void removeIdFromList(node** head, int id) {
   prevNode = *head;
   currentNode = prevNode->next;
 
+	// eðer silinecek eleman ilk düðüm ise
   if (prevNode->id == id) {
     *head = currentNode;
     free(prevNode);
